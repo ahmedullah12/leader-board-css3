@@ -179,7 +179,7 @@ hr{
         font-size: 18px;
     }
     .container{
-        width: 100%;
+        width: 83%;
         height: fit-content;
     }
     .players, .blogs, .courses{
@@ -187,6 +187,9 @@ hr{
     }
     .player, .blog{
         flex-direction: column;
+    }
+    .course{
+        padding-top: 30px;
     }
 
 }
