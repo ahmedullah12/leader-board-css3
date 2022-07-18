@@ -2,9 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500&display=swap');
 
 /* commont styles or utilities */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+}
+header{
+    background-color: #562EFF;
+    width: 100%;
+    height: 94px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-lightbulb{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.idea{
+    font-weight: 500;
+    font-size: 24px;
+}
+.head-menu{
+    margin-left: 80vh;
+    align-items: center;
+}
+.menu-items{
+    text-decoration: none;
+    color: white;
+    padding: 0px 36px;
+    font-weight: 400;
+    font-size: 16px;
 }
 main{
     display: flex;
@@ -122,6 +154,9 @@ hr{
 /* Media Queries */
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
+    header{
+        width: 100%;
+    }
     .container{
         width: 100%;
         height: fit-content;
